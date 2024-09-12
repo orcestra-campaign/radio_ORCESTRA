@@ -5,11 +5,11 @@ setup:
     max_gap_fill: 50
 global_attrs:
     title: ${main.campaign} level 2 sounding data
-#    source: "{input_file}"
-    version: "{version}"
-    history: "created with {package} ({version}) on {date}"
-#    description: ???
-#    campaign_id: ${main.campaign_id}
+    source: "{input_file}"
+    #version: "{version}"
+    history: "created with {package}  on {date}"
+    #description: 
+    #campaign_id: ${main_cor.campaign_id}
 #    platform: ${main.platform}
 #    instrument: "Radiosonde RS41-SGP by Vaisala"
 #    doi: ???
