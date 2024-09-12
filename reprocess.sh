@@ -7,3 +7,4 @@ ncrcat -h ./data/level2/ORCESTRA__*L2-*.nc ./data/level2/RS_{campaign}_level2_v1
 #rm ./data/level2/*_????????T????_*.nc
 #zip -r data.zip data
 
+
