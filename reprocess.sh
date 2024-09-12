@@ -1,9 +1,9 @@
 #/bin/bash
 #pip install pysonde
-#sounding_converter -i ../data/level0/*.mwx -o "../data/level1_mwx/RS_{campaign}_{platform}_L1_%Y%m%dT%H%M_{direction}.nc" -c config/main_mwx.yaml
-#sounding_converter -i ../data/level0/*.cor -o "../data/level1_cor/RS_{campaign}_{platform}_L1_%Y%m%dT%H%M_{direction}.nc" -c config/main_cor.yaml
-#sounding_converter -i ../data/level1_mwx/*.nc -o "../data/level2/RS_{campaign}_{platform}_L2_%Y%m%dT%H%M_{direction}.nc" -c config/main_mwx.yaml
-#sounding_converter -i ../data/level1_cor/*.nc -o "../data/level2/RS_{campaign}_{platform}_L2_%Y%m%dT%H%M_{direction}.nc" -c config/main_cor.yaml
+sounding_converter -i ../data/level0/*.mwx -o "../data/level1_mwx/RS_{campaign}_{platform}_L1_%Y%m%dT%H%M_{direction}.nc" -c config/main_mwx.yaml
+sounding_converter -i ../data/level0/*.cor -o "../data/level1_cor/RS_{campaign}_{platform}_L1_%Y%m%dT%H%M_{direction}.nc" -c config/main_cor.yaml
+sounding_converter -i ../data/level1_mwx/*.nc -o "../data/level2/RS_{campaign}_{platform}_L2_%Y%m%dT%H%M_{direction}.nc" -c config/main_mwx.yaml
+sounding_converter -i ../data/level1_cor/*.nc -o "../data/level2/RS_{campaign}_{platform}_L2_%Y%m%dT%H%M_{direction}.nc" -c config/main_cor.yaml
 
 # Directory containing the level2 files
 directory_level2="../data/level2"
