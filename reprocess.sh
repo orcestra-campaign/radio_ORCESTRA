@@ -7,7 +7,7 @@ sounding_converter -i ../data/level1_cor/*.nc -o "../data/level2/RS_{campaign}_{
 
 # Directory containing the level2 files
 directory_level2="../data/level2"
-# Execute the script to add the launhcing platform as a coordinate
+# Execute the script to add the launching platform as a coordinate
 python ./platform_coordinate/add_platform_coordinate.py "$directory_level2"
 
 ncrcat -h ../data/level2/RS_*L2_*.nc ../data/concatenated/RS_ORCESTRA_level2_v1.0.0.nc
